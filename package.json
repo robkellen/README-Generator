@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/robkellen/README-Generator/issues"
   },
-  "homepage": "https://github.com/robkellen/README-Generator#readme"
+  "homepage": "https://github.com/robkellen/README-Generator#readme",
+  "devDependencies": {}
 }
