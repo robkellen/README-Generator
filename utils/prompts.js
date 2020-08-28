@@ -1,10 +1,5 @@
-const inquirer = require("inquirer");
-const fs = require("fs");
-const userPrompt = require("./utils/prompts");
-
-// const writeFileAsync = util.promisify(fs.writeFile);
-
 // prompt user for questions
+
 function userPrompt(){
   return inquirer.prompt([
     {
@@ -28,10 +23,6 @@ function userPrompt(){
       name: "usage"
     },
     {
-      message: "Please provide HTML link to screenshot of deployed application.",
-      name: "screenshot"
-    },
-    {
       message: "Please provide guidelines for how other developers can contribute to your project.",
       name: "contributing"
     },
@@ -44,16 +35,3 @@ function userPrompt(){
     console.log(data);
   })
 }
-
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-userPrompt();
-init();
