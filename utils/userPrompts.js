@@ -1,4 +1,4 @@
-// prompt user for questions
+// prompt user for info to be generated in README 
 const inquirer = require("inquirer");
 
 function userPrompts() {
@@ -7,6 +7,10 @@ function userPrompts() {
       {
         message: "What is your GitHub user name?",
         name: "username",
+      },
+      {
+        message: "Enter the name of your GitHub repository for this project?",
+        name: "repo"
       },
       {
         message: "What is the title of your project?",
