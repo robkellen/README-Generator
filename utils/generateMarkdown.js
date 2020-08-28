@@ -1,9 +1,20 @@
-function generateMarkdown(data) {
-  const licenseBadgeUrl = "https://img.shields.io/github/license/" + data.username + "/" + data.repo;
-  console.log(licenseBadgeUrl);
+function generateMarkdown({
+  title,
+  description,
+  install,
+  usage,
+  license,
+  contributing,
+  tests,
+  questions,
+  username,
+  repo,
+}) {
+  // const licenseBadgeUrl =
+  //   "https://img.shields.io/github/license/" + username + "/" + repo;
+  // // console.log(licenseBadgeUrl);
   return `
-  # ${data.title}
-  ${licenseBadgeUrl}
+  # ${title}
   
   ## Table of Contents
     * [Description] (#description)
@@ -16,29 +27,28 @@ function generateMarkdown(data) {
   ##  
   
   ## Description
-  ${data.description}
+  ${description}
 
 
   ## Installation 
-  ${data.install}
+  ${install}
 
   ## Usage
-  ${data.usage}
+  ${usage}
 
   ## License
-  ${data.license}
+  ${license}
 
   ## Contributing
-  ${data.contributing}
+  ${contributing}
 
   ## Tests
-  ${data.tests}
+  ${tests}
   
   ## Questions
-  "Please email me at " + ${data.questions} + "with any questions about this project."
+  "Please email me at " + ${questions} + "with any questions about this project."
 
 `;
 }
 
 module.exports = generateMarkdown;
-
