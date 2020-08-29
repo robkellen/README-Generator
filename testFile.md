@@ -1,9 +1,9 @@
+# c oiuwjeoimcae
 
-  # kmcopiuae
+![license badge](https://img.shields.io/badge/license-GPLv2-green)
 
-  ![license badge](https://img.shields.io/badge/license-Apache-green)
-  
-  ## Table of Contents
+## Table of Contents
+
     *[Description](#description)
     *[Installation](#installation)
     *[Usage](#usage)
@@ -11,27 +11,46 @@
     *[Contributing](#contributing)
     *[Tests](#tests)
     *[Questions](#questions)
-  ##  
-  
-  ## Description
-  rklmapociuwe
 
+##
 
-  ## Installation 
-  rkamoc;iuwer
+## Description
 
-  ## Usage
-  apkcml;iw euojr
+;maociuawer
 
-  ## License
-  Apache
+## Installation
 
-  ## Contributing
-  cpoiuwermc
+lkmacoi uwer
 
-  ## Tests
-  ;iaupcoiuer
-  
-  ## Questions
-  "Please email me at " + lksncouwerm'c + "with any questions about this project."
+## Usage
 
+kmopaciuowkemrpoiuc
+
+## License
+
+Copyright (c) 2020 roooooooooooooob
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
+## Contributing
+
+ackmpoiauwerlkm
+
+## Tests
+
+;komopuacoijwe
+
+## Questions
+
+"Please email me at " + ;lkmacopuwelr,mw'er + "with any questions about this project."
