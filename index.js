@@ -1,8 +1,8 @@
+//npm package dependency
 const fs = require("fs");
+//data files for generation of README
 const userPrompts = require("./utils/userPrompts");
 const generateMarkdown = require("./utils/generateMarkdown");
-
-// const writeFileAsync = util.promisify(fs.writeFile);
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -17,7 +17,7 @@ function writeToFile(fileName, data) {
 async function init() {
   let data = await userPrompts();
   let md = generateMarkdown(data);
-  writeToFile("testFile", md);
+  writeToFile("README-Test", md);
 }
 
 // function call to initialize program
