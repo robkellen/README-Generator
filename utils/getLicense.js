@@ -1,16 +1,7 @@
-function generateMarkdown({
-  title,
-  description,
-  install,
-  usage,
-  contributing,
-  tests,
-  userLicense,
-  licenseBadgeUrl,
-  email,
-}) {
-  const getLicense = function (username, userLicense) {
-    let mitLicense = `MIT License
+const userPrompts = require("./userPrompts");
+
+const getLicense = function (username, userLicense) {
+  let mitLicense = `MIT License
     
     Copyright (c) 2020 ${username}
     
@@ -20,7 +11,7 @@ function generateMarkdown({
     
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.`;
 
-    let apacheLicense = `Copyright 2020 ${username}
+  let apacheLicense = `Copyright 2020 ${username}
     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -34,64 +25,23 @@ function generateMarkdown({
     See the License for the specific language governing permissions and
     limitations under the License.`;
 
-    let apacheBadge =
-      "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+  let apacheBadge =
+    "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
 
-    let mitBadge =
-      "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-    if (userLicense === "MIT") {
-      userLicense = mitLicense;
-    } else if (userLicense === "Apache") {
-      userLicense = apacheLicense;
-    }
-    if (userLicense === "MIT") {
-      licenseBadgeUrl = mitBadge;
-    } else if (userLicense === "Apache") {
-      licenseBadgeUrl = apacheBadge;
-    }
+  let mitBadge =
+    "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+  if (userLicense === "MIT") {
+    userLicense = mitLicense;
+  } else if (userLicense === "Apache") {
+    userLicense = apacheLicense;
+  }
+  if (userLicense === "MIT") {
+    licenseBadgeUrl = mitBadge;
+  } else if (userLicense === "Apache") {
+    licenseBadgeUrl = apacheBadge;
+  }
 
-    return userLicense, licenseBadgeUrl;
-  };
-  getLicense();
-  console.log(userLicense);
-  return `
-  # ${title}
-
-  ${licenseBadgeUrl}
-  
-  ## Table of Contents
-    *[Description](#description)
-    *[Installation](#installation)
-    *[Usage](#usage)
-    *[License](#license)
-    *[Contributing](#contributing)
-    *[Tests](#tests)
-    *[Questions](#questions)
-  ##  
-  
-  ## Description
-  ${description}
-
-
-  ## Installation 
-  ${install}
-
-  ## Usage
-  ${usage}
-
-  ## License
-  ${userLicense}
-
-  ## Contributing
-  ${contributing}
-
-  ## Tests
-  ${tests}
-  
-  ## Questions
-  "Please email me at " + ${email} + "with any questions about this project."
-
-`;
-}
-
-module.exports = generateMarkdown;
+  return userLicense, licenseBadgeUrl;
+};
+getLicense();
+console.log(userLicense);
