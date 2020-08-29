@@ -1,13 +1,14 @@
 # README-Generator
 
 ## Table of Contents
-*[Description](#description)
-*[Installation](#installation)
-*[Usage](#usage)
-*[License](#license)
-*[Contributing](#contributing)
-*[Tests](#tests) 
-*[Questions](#questions)
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests) 
+- [Questions](#questions)
 
 ## Description
 
@@ -17,7 +18,7 @@ This is a command-line application that allows users to quickly and easily gener
 
 This application requires node.js and the Inquirer npm package. To install Inquirer from your terminal run:
 
-`npm install inquirer`
+ `npm install inquirer`
 
 Visit [https://www.npmjs.com/package/inquirer#installation](https://www.npmjs.com/package/inquirer#installation) for additional options.
 
