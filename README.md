@@ -1,13 +1,13 @@
 # README-Generator
 
 ## Table of Contents
-
-_[Description](#description)
-_[Installation](#installation)
-_[Usage](#usage)
-_[License](#license)
-_[Contributing](#contributing)
-_[Tests](#tests) \*[Questions](#questions)
+*[Description](#description)
+*[Installation](#installation)
+*[Usage](#usage)
+*[License](#license)
+*[Contributing](#contributing)
+*[Tests](#tests) 
+*[Questions](#questions)
 
 ## Description
 
@@ -15,12 +15,19 @@ This is a command-line application that allows users to quickly and easily gener
 
 ## Installation
 
-This application requires node.js and the Inquirer npm package. To install Inquirer from your terminal run: `npm install inquirer`
+This application requires node.js and the Inquirer npm package. To install Inquirer from your terminal run:
+
+`npm install inquirer`
+
 Visit [https://www.npmjs.com/package/inquirer#installation](https://www.npmjs.com/package/inquirer#installation) for additional options.
 
 ## Usage
 
-To run the application simply enter `node index.js` in the command line, and answer the prompts with the information you want to be entered into your generated README. The title of the generated README file will be "README-Test.md" but you can change the name prior to running the application by editing line 20 of the index.js file.
+To run the application simply enter:
+
+`node index.js`
+
+in the command line, and answer the prompts with the information you want to be entered into your generated README. The name of the generated README file will be README-Test.md, but you can change the name prior to running the application by editing line 20 of the index.js file.
 
 ## License
 
@@ -50,4 +57,6 @@ SOFTWARE.
 
 To contribute to this project please open up a new issue in the repo or email me at rob.h.kellen@gmail.com
 
-## Tests
+## Questions
+
+For any questions regarding this project please email me at rob.h.kellen. To see more of my work feel free to check out my GitHub [profile](https://github.com/robkellen) and connect with me!
