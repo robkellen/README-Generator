@@ -14,6 +14,8 @@
 
 This is a command-line application that allows users to quickly and easily generate a README that is tailored to their project.
 
+
+
 ## Installation
 
 This application requires node.js and the Inquirer npm package. To install Inquirer from your terminal run:
@@ -28,7 +30,7 @@ To run the application simply enter:
 
 `node index.js`
 
-in the command line, and answer the prompts with the information you want to be entered into your generated README. The name of the generated README file will be README-Test.md, but you can change the name prior to running the application by editing line 20 of the index.js file.
+in the command line, and answer the prompts with the information you want to be entered into your generated README. The name of the generated README file will be README-Test.md, but you can change the name prior to running the application by editing line 20 of the index.js file.  The file will be created inside of your current working directory.
 
 ## License
 
