@@ -14,7 +14,7 @@
 
 This is a command-line application that allows users to quickly and easily generate a README that is tailored to their project.
 
-![Alt Text](README-Generator/utils/README.gif)
+![Alt Text](utils/README.gif)
 
 ## Installation
 
