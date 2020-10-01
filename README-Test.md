@@ -1,5 +1,5 @@
 
-# Fitness Tracker
+# Budget Tracker
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
   
 ## Table of Contents
@@ -13,11 +13,11 @@
     
   
 ## Description
-This application allows the user to view, create, and track daily workouts.  The user can track the name, type, weight, sets, reps, and duration of each exercise.  If the exercise type is cardio it will allow the user to track the distance traveled.
+This is a progressive web app that allows users to maintain an accurate budget for their expenses - even when the app is offline.
 
 
 ## Installation 
-This project requires no installation from the user.  They simply need to navigate to [https://arcane-stream-21231.herokuapp.com/](https://arcane-stream-21231.herokuapp.com/) in their web browser to utilize the application.
+
 
 ## Usage
 
@@ -34,7 +34,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Contributing
-To contribute to this project please email me at rob.h.kellen@gmail.com.
+To contribute to this project please email me at rob.h.kellen@gmail.com
 
 ## Tests
 
